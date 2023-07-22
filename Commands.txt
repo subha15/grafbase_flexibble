@@ -1,0 +1,5 @@
+npx create-next-app@latest ./
+npm install @headlessui/react cloudinary jsonwebtoken @types/jsonwebtoken graphql-request next-auth
+npm install @grafbase/sdk --save-dev
+npm run dev
+npx grafbase init --config-format typescript
